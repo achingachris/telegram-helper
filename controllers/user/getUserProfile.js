@@ -1,6 +1,5 @@
 import asyncHandler from 'express-async-handler'
-import generateToken from '../../utils/generateToken.js'
-import User from '../../models/User.js'
+import User from '../../models/userModel.js'
 
 // @desc    Get user profile
 // @route   GET /api/users/profile

@@ -1,6 +1,6 @@
 import asyncHandler from 'express-async-handler'
 import generateToken from '../../utils/generateToken.js'
-import User from '../../models/User.js'
+import User from '../../models/userModel.js'
 
 // @desc    Update user profile
 // @route   PUT /api/users/profile

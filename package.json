@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app",
-    "server": "nodemon app",
-    "client": "npm start --prefix client",
+    "dev": "nodemon app",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
