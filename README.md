@@ -15,5 +15,14 @@ Generate jsonwebtokens
 Connect to Mongo DB
 [config/mongodb](config/mongodb.js)
 
+User Model:
+[user model](models/userModel.js)
+
 User Controllers:
 [user controllers](controllers/user/)
+
+Product Model:
+[product model](models/productModel.js)
+
+Product Controllers:
+[product controllers](controllers/products/)
