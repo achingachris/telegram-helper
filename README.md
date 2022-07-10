@@ -26,3 +26,10 @@ Product Model:
 
 Product Controllers:
 [product controllers](controllers/products/)
+
+
+Order Model:
+[order model](models/orderModel.js)
+
+Order Controller:
+[order controller](controllers/orders/)
