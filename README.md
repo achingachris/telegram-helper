@@ -27,7 +27,6 @@ Product Model:
 Product Controllers:
 [product controllers](controllers/products/)
 
-
 Order Model:
 [order model](models/orderModel.js)
 
@@ -41,7 +40,10 @@ JWT_SECRET = ''
 MONGO_URI = ''
 NODE_ENV = ''
 PAYPAL_CLIENT_ID = ''
-PORT = 
+PORT =
+CLOUDINDARY_NAME = ''
+CLOUDINDARY_NAME_API_KEY = ''
+CLOUDINDARY_NAME_API_SECRET = ''
 ```
 
 ## API Routes:
@@ -69,4 +71,3 @@ PORT =
 ### Ulpoad
 
 ### Users
-
