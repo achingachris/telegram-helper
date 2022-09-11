@@ -33,3 +33,40 @@ Order Model:
 
 Order Controller:
 [order controller](controllers/orders/)
+
+### Development Environment Setup:
+
+```Environment
+JWT_SECRET = ''
+MONGO_URI = ''
+NODE_ENV = ''
+PAYPAL_CLIENT_ID = ''
+PORT = 
+```
+
+## API Routes:
+
+### Products
+
+#### Get all Products
+
+/api/products
+
+#### Get Product by ID
+
+/api/products/id
+
+#### Get Top Top Products
+
+/api/products/top-products
+
+#### Get a Product Review
+
+/api/products/id/reviews
+
+### Orders
+
+### Ulpoad
+
+### Users
+
