@@ -48,19 +48,19 @@ PORT =
 
 ### Products
 
-#### Get all Products
+#### Get all Products - Public
 
 /api/products
 
-#### Get Product by ID
+#### Get Product by ID - Public
 
 /api/products/id
 
-#### Get Top Top Products
+#### Get Top Top Products - Public
 
 /api/products/top-products
 
-#### Get a Product Review
+#### Get a Product Review - Public
 
 /api/products/id/reviews
 

@@ -10,12 +10,11 @@ import updateProduct from '../controllers/products/updateProduct.js'
 import createProductReview from '../controllers/products/createProductReview.js'
 import getTopProducts from '../controllers/products/getTopProducts.js'
 
-
 import { protect, admin } from '../middleware/authMiddleware.js'
 
-router.route('/').get(getProducts).post(protect, admin, createProduct)
+router.route('/all').get(getProducts).post(protect, admin, createProduct)
 router.route('/:id/reviews').post(protect, createProductReview)
-router.get('/top', getTopProducts)
+router.get('/top-products', getTopProducts)
 router
   .route('/:id')
   .get(getProductById)

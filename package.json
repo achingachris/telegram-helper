@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app",
+    "server": "nodemon app",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d"
   },
